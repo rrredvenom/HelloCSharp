@@ -9,11 +9,5 @@ while (count <= num)
     count ++;
 }
 }
-else
-{
-    while (count >= num)
-    {
-Console.Write(count + " ");
-    count ++;
-}
-}
+
+else Console.WriteLine("Введено неправильное число!");
