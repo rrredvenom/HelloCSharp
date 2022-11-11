@@ -5,6 +5,6 @@ Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 > num2)
 {
-Console.WriteLine($"Число {num1} является максимальным по значению");
+Console.WriteLine($"Число {num1} является максимальным, а число {num2} минимальным");
 }
-else  Console.WriteLine($"Число {num2} является большим по значению");
+else  Console.WriteLine($"Число {num2} является максимальным, а число {num1} минимальным");
