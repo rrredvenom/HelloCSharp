@@ -8,7 +8,7 @@ Console.WriteLine("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число, в степень которого хотите возвести первое число: ");
 int b = Convert.ToInt32(Console.ReadLine());
-int degree(int x, int y)
+int Degree(int x, int y)
 {
     int n = 1;
     for (int i = 0; i < y; i++)
@@ -17,4 +17,4 @@ int degree(int x, int y)
     }
     return n;
 }
-Console.WriteLine(degree(a, b));
+Console.WriteLine(Degree(a, b));
