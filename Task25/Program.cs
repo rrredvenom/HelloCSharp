@@ -17,4 +17,4 @@ int Degree(int x, int y)
     }
     return n;
 }
-Console.WriteLine(Degree(a, b));
+Console.WriteLine($"Число {a} в степени {b} = {Degree(a, b)}");
