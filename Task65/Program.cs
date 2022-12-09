@@ -12,11 +12,12 @@ void NaturalNumbers(int num1, int num2)
     {
         Console.Write($"{num2} ");
         NaturalNumbers(num1, num2 + 1);
+        Console.Write($"{num2} ");
     }
     if (num1 < num2)
     {
-        NaturalNumbers(num1 + 1, num2);
         Console.Write($"{num1} ");
+        NaturalNumbers(num1 + 1, num2);
     }
     if (num1 == num2)
         Console.Write($"{num1} ");
